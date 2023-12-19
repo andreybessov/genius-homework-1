@@ -1,0 +1,216 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic-700.woff2') format('woff2');
+}
+
+:root{
+    --color-primary-light:#011C44;
+    --color-primary-dark:#000000;
+    --color-brand-light:#2B7FFF;
+    --color-brand-dark:#011C44;
+    --color-privacy-policy:#747272;
+    --color-white:#FFFFFF;
+    --color-bonus:#4A4A4A;
+}
+
+/* Base */
+
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: "Roboto", sans-serif;
+   color: var(--color-brand-dark);
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.5;
+}
+address{
+    font-style: normal;
+}
+ul{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Play", sans-selif;
+}
+
+/* Header */
+
+.link-header{
+    text-decoration: none;
+    color: var(--color-brand-dark);
+}
+
+.link-header:hover{
+    color: var(--color-brand-light);
+}
+.header-icon{
+    fill: var(--color-brand-dark);
+}
+.header-icon:hover{
+    fill: var(--color-brand-light);
+}
+/* Hero-section */
+
+.hero-title{
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.2;
+    color: var(--color-brand-light);
+    text-transform: capitalize;
+    line-height: 114px;
+}
+.button{
+    color: var(--color-white);
+    background-color: var(--color-brand-light);
+    border-radius: 32px;
+    border: 2px solid var(--color-brand-light);
+    cursor: pointer;
+    font-weight: 600;
+}
+.button:hover{
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+.info-bonus{
+    color: var(--color-bonus);
+    font-size: 12px;
+}
+
+/* Info-Section */
+.info-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 529px;
+}
+.info-title span{
+    color: var(--color-brand-light);
+    text-transform: capitalize;
+}
+.info-text{
+    font-size: 22px;
+}
+.info-text span{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+/* Advantages-section */
+
+.advantages-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+.advantages-title span{
+    color: var(--color-brand-light);
+}
+.advantages-list{
+    color: var(--color-primary-dark);
+}
+.advantages-icon{
+    fill: var(--color-brand-light);
+}
+
+/* Services-section */
+
+.services-title{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.services-title span{
+    color: var(--color-brand-light);
+}
+
+/* Contact-section */
+
+.contact-title{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-title span{
+    color: var(--color-brand-light);
+}
+.form-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.form-title span{
+    color: var(--color-brand-light);
+}
+
+/* Footer */
+
+.footer{
+    background-color: #011C44; 
+    /* correct later */
+}
+
+.link-footer{
+    font-size: 16px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.link-footer:hover{
+    color: var(--color-brand-light);
+}
+
+.address-link{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 16px;
+}
+.address-link:hover{
+    color: var(--color-brand-light);
+}
+.footer-icon{
+    fill: var(--color-white);
+}
+.footer-icon:hover{
+    fill: var(--color-brand-light);
+}
+.policy{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 16px;
+}
+.policy:hover{
+    color: var(--color-brand-light);
+}
+.address-copyright{
+    color: var(--color-privacy-policy);
+    font-size: 13px;
+}
